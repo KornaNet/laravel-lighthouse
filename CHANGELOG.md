@@ -9,6 +9,48 @@ You can find and compare releases at the [GitHub release page](https://github.co
 
 ## Unreleased
 
+## v6.49.1
+
+### Fixed
+
+- Pull empty IDs instead of filling them with upsert https://github.com/nuwave/lighthouse/pull/2656
+
+## v6.49.0
+
+### Added
+
+- Make reporting of client-safe errors configurable https://github.com/nuwave/lighthouse/issues/2647
+
+## v6.48.0
+
+### Added
+
+- Add `@bind` directive as a GraphQL analogue for Laravel's Route Model Binding https://github.com/nuwave/lighthouse/pull/2645
+
+## v6.47.1
+
+### Fixed
+
+- Cast model count to `int` in `CountModelsLoader` https://github.com/nuwave/lighthouse/pull/2646
+
+## v6.47.0
+
+### Added
+
+- Support Laravel Reverb as a subscriptions broadcasting driver https://github.com/nuwave/lighthouse/pull/2639
+
+## v6.46.0
+
+### Added
+
+- Allow `@show`, `@hide`, and `@feature` directives to be used on types, arguments and input types https://github.com/nuwave/lighthouse/pull/2638
+
+## v6.45.1
+
+### Fixed
+
+- Fix field middleware directive stub https://github.com/nuwave/lighthouse/commit/21edcfe4762b4b6f14134e8b5c636662f97443ff
+
 ## v6.45.0
 
 ### Added
